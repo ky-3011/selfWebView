@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'selfWebViewTest'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'selfWebView is a webView,which is used to http'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ TODO: webView has sound takephoto location scan
   # s.frameworks = 'UIKit', 'Foundation', 'libiconv.tbd', 'CoreAudio', 'WebKit' ,'ImageIO', 'CoreMedia', 'CoreVideo', 'CoreAudio', 'CoreFoundation'
   # s.dependency 'AFNetworking', '~> 2.3'
   # s.library   = 'iconv.tbd'
-  s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC']}
+  # s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC']}
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
