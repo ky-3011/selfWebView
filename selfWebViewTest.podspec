@@ -39,8 +39,8 @@ TODO: webView has sound takephoto location scan
   s.public_header_files = 'lib/**/*.h'
   # s.frameworks = 'UIKit', 'Foundation', 'libiconv.tbd', 'CoreAudio', 'WebKit' ,'ImageIO', 'CoreMedia', 'CoreVideo', 'CoreAudio', 'CoreFoundation'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.library   = 'libiconv.tbd'
-  s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
+  # s.library   = 'iconv.tbd'
+  s.user_target_xcconfig = {'OTHER_LDFLAGS' => ['-lObjC']}
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
