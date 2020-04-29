@@ -37,9 +37,7 @@
 <string>我们将使用你的相册为你提供资料上传服务</string>
 </plist>
 2.Build Setting选项
-Other Linker Flags  增加 -ObjC
 Enable Bitcode      设置为 NO
-3.Build Phases设置
-Link Binary With Libraries添加libiconv.tbd、selfWebView.framework
+
 
 
